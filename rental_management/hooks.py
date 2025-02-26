@@ -245,3 +245,10 @@ app_license = "unlicense"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters":  [["module", "=", "Rental Management"]]
+    }
+]
